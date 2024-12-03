@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모델 사용</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/model_use.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>모델 사용</h1>
+        <form action="/process_video/" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="model-type">모델 종류 선택</label>
+                <select id="model-type" name="model_type" required>
+                    <option value="mesonet">MesoNet</option>
+                    <option value="xception">Xception</option>
+                    <option value="efficientnet">EfficientNet</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="video-upload">영상 업로드</label>
+                <input type="file" id="video-upload" name="video" accept="video/*" required>
+            </div>
+
+            <button type="submit" class="submit-btn">영상 판별</button>
+        </form>
+
+        <div class="result">
+            {% if result %}
+                <h2>결과</h2>
+                <p>{{ result }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

@@ -18,11 +18,15 @@ from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
 from django.shortcuts import render
+from . import views
 
 def index_view(request):
     return render(request, 'index.html')  # 'index.html' 렌더링
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index_view, name='index'),  # 기본 URL에 index.html 연결
+    path('', views.index, name='index'),  # 기본 URL에 index 연결
+    path('model_types/', views.model_types, name='model_types'),
+    path('model_comparison/', views.model_comparison, name='model_comparison'),
+    path('model_use/', views.model_use, name='model_use'),
 ]

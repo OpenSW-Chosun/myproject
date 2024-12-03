@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <title>My Django App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFDC WEP</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
 <body>
-    <h1>Welcome to My Django App!</h1>
+    <div class="container">
+        <h1>DFDC WEP</h1>
+        <div class="menu">
+            <a href="/model_types/" class="menu-button">모델 종류</a>
+            <a href="/model_comparison/" class="menu-button">모델 비교</a>
+            <a href="/model_use/" class="menu-button">모델 사용</a>
+        </div>
+    </div>
 </body>
 </html>
