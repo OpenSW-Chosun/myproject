@@ -20,6 +20,7 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from .views import process_video
 from . import views
+# from MesoNet_model import xception
 
 def index_view(request):
     return render(request, 'index.html')  # 'index.html' 렌더링
