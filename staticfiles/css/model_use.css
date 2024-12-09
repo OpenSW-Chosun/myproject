@@ -1,0 +1,138 @@
+/* 전체 배경 */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: gradientBG 8s ease infinite;
+}
+
+/* 배경 애니메이션 */
+@keyframes gradientBG {
+    0%, 100% {
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    }
+    50% {
+        background: linear-gradient(135deg, #a18cd1, #fbc2eb, #fad0c4);
+    }
+}
+
+/* 컨테이너 */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* 컨테이너 애니메이션 */
+@keyframes fadeIn {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* 제목 */
+h1.animated-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* 폼 */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group select,
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.form-group select:focus,
+.form-group input:focus {
+    border-color: #6a11cb;
+    box-shadow: 0 0 8px rgba(106, 17, 203, 0.2);
+}
+
+/* 버튼 */
+button.submit-btn {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button.submit-btn:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* 결과 */
+.result {
+    margin-top: 30px;
+}
+
+.result h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.result p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 30px;
+    }
+
+    h1.animated-title {
+        font-size: 22px;
+    }
+
+    button.submit-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

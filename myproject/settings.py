@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# settings.py
+DATA_UPLOAD_MAX_MEMORY_SIZE = 104857600  # 100MB (단위: 바이트)
 
 # Application definition
 

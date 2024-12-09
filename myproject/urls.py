@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
 from django.shortcuts import render
+from .views import process_video
 from . import views
 
 def index_view(request):
@@ -29,4 +30,5 @@ urlpatterns = [
     path('model_types/', views.model_types, name='model_types'),
     path('model_comparison/', views.model_comparison, name='model_comparison'),
     path('model_use/', views.model_use, name='model_use'),
+    path('process_video/', views.process_video, name='process_video'),  # 추가된 경로
 ]

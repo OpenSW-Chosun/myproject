@@ -4,35 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>모델 사용</title>
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'css/model_use.css' %}">
 </head>
-<body>
-    <div class="container">
-        <h1>모델 사용</h1>
-        <form action="/process_video/" method="POST" enctype="multipart/form-data">
+<body style="margin: 0; font-family: 'Roboto', Arial, sans-serif; background: linear-gradient(135deg, #ff9a9e, #fad0c4); display: flex; justify-content: center; align-items: center; height: 100vh; overflow: hidden;">
+    <div style="background: rgba(255, 255, 255, 0.9); padding: 40px 60px; border-radius: 20px; box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); text-align: center;">
+        <h1 style="font-size: 36px; background: linear-gradient(90deg, #ff9a9e, #fad0c4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 30px;">
+            모델 사용
+        </h1>
+        <form action="{% url 'process_video' %}" method="POST" enctype="multipart/form-data" style="margin-top: 20px;">
             {% csrf_token %}
-            <div class="form-group">
-                <label for="model-type">모델 종류 선택</label>
-                <select id="model-type" name="model_type" required>
+            <div style="margin-bottom: 20px; text-align: left;">
+                <label for="model-type" style="display: block; margin-bottom: 8px; font-weight: bold; color: #555; font-size: 18px;">모델 종류 선택</label>
+                <select id="model-type" name="model_type" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
                     <option value="mesonet">MesoNet</option>
                     <option value="xception">Xception</option>
                     <option value="efficientnet">EfficientNet</option>
                 </select>
             </div>
 
-            <div class="form-group">
-                <label for="video-upload">영상 업로드</label>
-                <input type="file" id="video-upload" name="video" accept="video/*" required>
+            <div style="margin-bottom: 20px; text-align: left;">
+                <label for="video-upload" style="display: block; margin-bottom: 8px; font-weight: bold; color: #555; font-size: 18px;">영상 업로드</label>
+                <input type="file" id="video-upload" name="video" accept="video/*" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
             </div>
 
-            <button type="submit" class="submit-btn">영상 판별</button>
+            <button type="submit" style="background: linear-gradient(90deg, #ff758c, #ff7eb3); color: white; padding: 12px 25px; border: none; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); transition: all 0.3s ease;">
+                영상 판별
+            </button>
         </form>
 
-        <div class="result">
+        <div style="margin-top: 30px; text-align: center;">
             {% if result %}
-                <h2>결과</h2>
-                <p>{{ result }}</p>
+                <h2 style="font-size: 24px; color: #333; margin-bottom: 10px;">결과</h2>
+                <p style="font-size: 18px; color: #555;">{{ result }}</p>
             {% endif %}
         </div>
     </div>
