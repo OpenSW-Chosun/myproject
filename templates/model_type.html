@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFDC WEP</title>
+    <link rel="stylesheet" href="../static/css/model_type.css">
+</head>
+<body>
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <button onclick="scrollToSection('overview')">개요</button>
+        <button onclick="scrollToSection('faceforensics')">FaceForensics</button>
+        <button onclick="scrollToSection('mesonet')">MesoNet</button>
+        <button onclick="scrollToSection('efficiencnet')">EfficiencNet</button>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>DFDC WEP</h1>
+        <p>Welcome to the DFDC WEP platform. Use the menu to navigate through the sections.</p>
+    </div>
+
+    <!-- Sections -->
+    <section id="overview">
+        <h2>개요</h2>
+        <p>이 섹션은 DFDC WEP의 개요를 설명합니다.</p>
+    </section>
+
+    <section id="faceforensics">
+        <h2>FaceForensics</h2>
+        <p>FaceForensics는 딥페이크 영상 검출에 사용되는 데이터셋 및 관련 기술을 다룹니다.</p>
+    </section>
+
+    <section id="mesonet">
+        <h2>MesoNet</h2>
+        <p>MesoNet은 딥페이크 탐지를 위해 설계된 심층 신경망 모델입니다.</p>
+    </section>
+
+    <section id="efficiencnet">
+        <h2>EfficiencNet</h2>
+        <p>EfficiencNet은 영상 분석에 최적화된 경량 딥러닝 모델입니다.</p>
+    </section>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>

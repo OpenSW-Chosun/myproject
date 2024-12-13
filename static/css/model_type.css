@@ -1,0 +1,72 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Main container styling */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Header styling */
+h1 {
+    font-size: 28px;
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Adjusting the side menu buttons */
+.side-menu {
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 30px; /* Slightly offset from the left */
+    transform: translateY(-50%); /* True vertical centering */
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu button {
+    background-color: #ffffff; /* Keep original background color */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.side-menu button:hover {
+    background-color: #fad0c4; /* Subtle hover effect */
+    transform: scale(1.05);
+}
+
+
+/* Section styling */
+section {
+    margin: 50px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+}

@@ -24,7 +24,7 @@ def faceforensics(request):
 
 # 모델 종류 페이지
 def model_types(request):
-    return HttpResponse("This is the model types page.")
+    return render(request, 'model_type.html')
 
 # 모델 비교 페이지
 def model_comparison(request):
