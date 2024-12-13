@@ -1,6 +1,7 @@
 /* Navbar styling */
 .navbar {
     position: fixed;
+    height: 60px; /* 기존 높이 유지 */
     top: 0;
     left: 0;
     width: 100%;
@@ -28,6 +29,6 @@
 
 /* Main content styling */
 main {
-    margin-top: 60px; /* Adjust this value to match the navbar height */
+    margin-top: 60px; /* 네비게이션 바 높이와 동일하게 설정 */
     padding: 20px;
 }

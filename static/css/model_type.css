@@ -3,40 +3,27 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+    display: block; /* Flex 제거: 사이드 메뉴와 섹션 분리 */
 }
 
-/* Main container styling */
-.container {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 30px 50px;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 80%;
+/* Section styling */
+section {
+    scroll-margin-top: 60px; /* 네비게이션 바 높이에 맞춘 여백 */
+    margin: 50px auto; /* 가운데 정렬 */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: calc(80% - 60px); /* 버튼을 고려해 섹션 크기 조정 */
     max-width: 800px;
+    text-align: left;
 }
 
-/* Header styling */
-h1 {
-    font-size: 28px;
-    background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
-
-/* Adjusting the side menu buttons */
+/* Side Menu styling */
 .side-menu {
     position: fixed;
     top: 50%; /* Center vertically */
-    left: 30px; /* Slightly offset from the left */
+    left: 10px; /* 버튼 위치를 왼쪽으로 고정 */
     transform: translateY(-50%); /* True vertical centering */
     display: flex;
     flex-direction: column;
@@ -58,15 +45,42 @@ h1 {
     transform: scale(1.05);
 }
 
-
-/* Section styling */
-section {
-    margin: 50px 0;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+/* Main container styling */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
     width: 80%;
     max-width: 800px;
-    text-align: left;
+    margin: 20px auto; /* Section과 동일한 중앙 정렬 */
+}
+
+/* Header styling */
+h1 {
+    font-size: 28px;
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fbc2eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Section-specific styles */
+#overview {
+    border: 2px solid #ff9a9e; /* Optional: Highlight for the overview section */
+}
+
+#faceforensics {
+    border: 2px solid #fad0c4; /* Optional: Highlight for the FaceForensics section */
+}
+
+#mesonet {
+    border: 2px solid #fbc2eb; /* Optional: Highlight for the MesoNet section */
+}
+
+#efficiencnet {
+    border: 2px solid #ffc3a0; /* Optional: Highlight for the EfficiencNet section */
 }
