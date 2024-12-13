@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DFDC WEP</title>
-    <link rel="stylesheet" href="../static/css/model_type.css">
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block title %}
+모델 종류 - DFDC WEP
+{% endblock %}
+
+{% block extra_css %}
+{% load static %}
+<link rel="stylesheet" href="{% static '../static/css/model_type.css' %}">
+{% endblock %}
+
+{% block content %}
     <!-- Side Menu -->
     <div class="side-menu">
         <button onclick="scrollToSection('overview')">개요</button>
@@ -16,10 +19,7 @@
     </div>
 
     <!-- Main Container -->
-    <div class="container">
-        <h1>DFDC WEP</h1>
-        <p>Welcome to the DFDC WEP platform. Use the menu to navigate through the sections.</p>
-    </div>
+
 
     <!-- Sections -->
     <section id="overview">
@@ -41,14 +41,4 @@
         <h2>EfficiencNet</h2>
         <p>EfficiencNet은 영상 분석에 최적화된 경량 딥러닝 모델입니다.</p>
     </section>
-
-    <script>
-        function scrollToSection(sectionId) {
-            const section = document.getElementById(sectionId);
-            if (section) {
-                section.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
-    </script>
-</body>
-</html>
+{% endblock %}

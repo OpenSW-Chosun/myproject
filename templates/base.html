@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}DFDC WEP{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <!-- Include Navbar -->
+    <nav class="navbar">
+        <a href="/" class="nav-item">홈</a>
+        <a href="/faceforensics/" class="nav-item">FaceForensics</a>
+        <a href="/model_types/" class="nav-item">모델 종류</a>
+        <a href="/model_comparison/" class="nav-item">모델 비교</a>
+        <a href="/model_use/" class="nav-item">모델 사용</a>
+    </nav>
+
+    <!-- Content Block -->
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>
