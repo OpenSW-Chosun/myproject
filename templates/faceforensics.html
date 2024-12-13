@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %} <!-- 정적 파일 사용을 위해 로드 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceForensics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .video-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+            width: 300px;
+        }
+        .video-card video {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .video-card p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>FaceForensics 모델 영상 추출물들</h1>
+    <div class="video-container">
+        <!-- Video 1 -->
+        <div class="video-card">
+            <video controls>
+                <source src="{% static 'media/ex1.mp4' %}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Example Video 1 (ex1.mp4)</p>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-card">
+            <video controls>
+                <source src="{% static 'media/ex2.mp4' %}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Example Video 2 (ex2.mp4)</p>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-card">
+            <video controls>
+                <source src="{% static 'media/ex3.mp4' %}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Example Video 3 (ex3.mp4)</p>
+        </div>
+    </div>
+</body>
+</html>

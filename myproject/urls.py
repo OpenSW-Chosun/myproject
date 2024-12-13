@@ -28,6 +28,7 @@ def index_view(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),  # 기본 URL에 index 연결
+    path('faceforensics/', views.faceforensics, name='faceforensics'),  # FaceForensics 추가
     path('model_types/', views.model_types, name='model_types'),
     path('model_comparison/', views.model_comparison, name='model_comparison'),
     path('model_use/', views.model_use, name='model_use'),
