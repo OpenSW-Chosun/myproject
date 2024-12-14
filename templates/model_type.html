@@ -24,6 +24,7 @@
 <!-- Side Menu -->
 <div class="side-menu">
     <button onclick="scrollToSection('overview')">개요</button>
+    <button onclick="scrollToSection('server')">Server</button>
     <button onclick="scrollToSection('faceforensics')">FaceForensics</button>
     <button onclick="scrollToSection('mesonet')">MesoNet</button>
     <button onclick="scrollToSection('efficiencnet')">EfficiencNet</button>
@@ -33,12 +34,93 @@
 <section id="overview">
     <h2>개요</h2>
     <p>조선대학교 오픈소스SW프로젝트입니다.</p>
-    <br><br><br><br><br><br><br>
+    <h2>1조</h2>
+    <p>
+        정보통신공학부(정보보안전공) 20203368 박준언</br>
+        정보통신공학부(정보보안전공) 20203376 이한음</br>
+        정보통신공학부(정보보안전공) 20212758 서희주</br>
+    </p>
+    <p>GitHub: <a href="https://github.com/OpenSW-Chosun/myproject">https://github.com/OpenSW-Chosun/myproject</a></p>
 </section>
 
-<section id="faceforensics">
+<section id="server">
+    <h2>GCP Server</h2>
+    <p>Ubuntu version: 20.04.6 LTS</p>
+    <p>nginx version: 1.18.0 (Ubuntu)</p>
+    <p>django version: 4.2.16</p>
+
+
+<!-- 아코디언 1 -->
+<div class="accordion">
+    <div class="accordion-header" onclick="toggleAccordion('original')">
+         원래 구상도
+    </div>
+    <div id="original" class="accordion-content">
+        <p>이곳에 원래 구상도의 설명이나 내용을 작성하세요.</p>
+        {% load static %}
+        <img src="{% static 'img/origin_server.png' %}" alt="origin_server.png" style="max-width: 100%; height: auto;">
+    </div>
+</div>
+
+    <!-- 아코디언 2 -->
+    <div class="accordion">
+        <div class="accordion-header" onclick="toggleAccordion('current')">
+             현재 구상도
+        </div>
+        <div id="current" class="accordion-content">
+            <p>이곳에 현재 구상도의 설명이나 내용을 작성하세요.</p>
+            <img src="{% static 'img/current_server.png' %}" alt="origin_server.png" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+</section>
+
+<style>
+    /* 아코디언 기본 스타일 */
+    .accordion {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    .accordion-header {
+        background-color: #f0f0f0;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .accordion-header:hover {
+        background-color: #e0e0e0;
+    }
+
+    .accordion-content {
+        display: none; /* 기본적으로 숨김 */
+        padding: 10px;
+        background-color: #fff;
+    }
+</style>
+
+<script>
+    function toggleAccordion(id) {
+        const content = document.getElementById(id);
+        const header = content.previousElementSibling;
+
+        // 열려 있으면 닫기
+        if (content.style.display === 'block') {
+            content.style.display = 'none';
+            header.textContent = '▶ ' + header.textContent.slice(2);
+        } else {
+            // 닫혀 있으면 열기
+            content.style.display = 'block';
+            header.textContent = '▼ ' + header.textContent.slice(2);
+        }
+    }
+</script>
+
+<section id="FaceForensics">
     <h2>FaceForensics</h2>
-    <p>FaceForensics는 딥페이크 영상 검출에 사용되는 데이터셋 및 관련 기술을 다룹니다.</p>
     <br><br><br><br><br><br><br>
 </section>
 
