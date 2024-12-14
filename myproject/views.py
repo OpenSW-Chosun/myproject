@@ -28,7 +28,7 @@ def model_types(request):
 
 # 모델 비교 페이지
 def model_comparison(request):
-    return HttpResponse("This is the model comparison page.")
+    return render(request, 'model_comparison.html')
 
 # 모델 사용 페이지
 def model_use(request):
@@ -60,7 +60,7 @@ def process_video(request):
             result = '알 수 없는 모델 유형입니다.'
         
         # 처리 후 파일 삭제(선택사항)
-        # os.remove(full_video_path)
+        os.remove(full_video_path)
 
         # 결과를 템플릿으로 전달
         return render(request, 'model_use.html', {'result': result})

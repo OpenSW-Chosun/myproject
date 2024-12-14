@@ -1,0 +1,22 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-14 23:48:34.130471: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-14 23:48:34.130661: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-14 23:48:35.749592: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-14 23:48:35.749645: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-14 23:48:35.749677: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-14 23:48:35.750029: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 14, 2024 - 23:48:35
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[14/Dec/2024 23:48:37] "GET /faceforensics/ HTTP/1.0" 200 2949
+[14/Dec/2024 23:48:39] "GET /model_types/ HTTP/1.0" 200 4854
+[14/Dec/2024 23:48:41] "GET /faceforensics/ HTTP/1.0" 200 2949
+[14/Dec/2024 23:48:42] "GET /model_types/ HTTP/1.0" 200 4854
+[14/Dec/2024 23:49:25] "GET /model_types/ HTTP/1.0" 200 4887
+[14/Dec/2024 23:50:04] "GET /model_types/ HTTP/1.0" 200 4713
