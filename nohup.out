@@ -530,3 +530,13 @@ Not Found: /favicon.ico
 [15/Dec/2024 03:35:48] "GET /model_comparison/ HTTP/1.0" 200 773
 [15/Dec/2024 03:35:49] "GET /faceforensics/ HTTP/1.0" 200 2939
 [15/Dec/2024 03:35:50] "GET /model_types/ HTTP/1.0" 200 5094
+[15/Dec/2024 03:44:47] "GET /model_types/ HTTP/1.0" 200 5030
+Not Found: /portal/redlion
+[15/Dec/2024 03:51:05] "GET /portal/redlion HTTP/1.0" 404 2909
+[15/Dec/2024 04:00:11] "GET / HTTP/1.1" 200 2347
+[15/Dec/2024 04:00:12] "GET /model_use/ HTTP/1.1" 200 3436
+[15/Dec/2024 04:01:12] "GET / HTTP/1.1" 200 2347
+[15/Dec/2024 04:01:14] "GET /model_use/ HTTP/1.1" 200 3436
+[15/Dec/2024 04:01:26] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 04:01:29] "GET /model_use/ HTTP/1.0" 200 3436
+[15/Dec/2024 04:04:05] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 200 2347
