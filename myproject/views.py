@@ -5,7 +5,7 @@ from django.shortcuts import render, redirect
 from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 from django.core.files.storage import FileSystemStorage
-# from .utils import process_video_with_colab  # Colab 통신 함수 임포트
+# from .utils import process_video_with_colab
 
 
 # 모델 스크립트 import (환경에 맞게 경로 수정)
@@ -37,7 +37,7 @@ def model_use(request):
 
 
 
-COLAB_SERVER_URL = 'https://https://4742-34-90-50-63.ngrok-free.app/api/predict'
+COLAB_SERVER_URL = 'https://3ece-34-125-111-96.ngrok-free.app/api/predict'
 
 def process_video(request):
     if request.method == 'POST':
@@ -57,8 +57,8 @@ def process_video(request):
             result = mesonet.predict(full_video_path)
         elif model_type == 'faceforensics':
            result = faceforensics.predict(full_video_path)  # faceforensics 사용
-        # elif model_type == 'efficientnet':
-        #     result = efficientnet.predict(full_video_path)
+        elif model_type == 'ensemble':
+            result = ensemble.predict(full_video_path)
         else:
             result = '알 수 없는 모델 유형입니다.'
         
@@ -72,45 +72,45 @@ def process_video(request):
     return redirect('model_use.html')  # 혹은 model_use.html 로직에 맞게 수정
 
 # ------------------------------------------------------------------------------colab api
-# def process_video(request):
-#     if request.method == 'POST':
-#         # 모델 유형 및 업로드된 파일 가져오기
-#         model_type = request.POST.get('model_type')
-#         video_file = request.FILES.get('video')
+def process_video(request):
+    if request.method == 'POST':
+        # 모델 유형 및 업로드된 파일 가져오기
+        model_type = request.POST.get('model_type')
+        video_file = request.FILES.get('video')
 
-#         if not video_file:
-#             return render(request, 'model_use.html', {'result': '비디오 파일이 업로드되지 않았습니다.'})
+        if not video_file:
+            return render(request, 'model_use.html', {'result': '비디오 파일이 업로드되지 않았습니다.'})
 
-#         # 비디오 파일을 서버에 임시 저장 (MEDIA_ROOT 경로)
-#         fs = FileSystemStorage(location=settings.MEDIA_ROOT)
-#         video_path = fs.save(video_file.name, video_file)
-#         full_video_path = os.path.join(settings.MEDIA_ROOT, video_path)
+        # 비디오 파일을 서버에 임시 저장 (MEDIA_ROOT 경로)
+        fs = FileSystemStorage(location=settings.MEDIA_ROOT)
+        video_path = fs.save(video_file.name, video_file)
+        full_video_path = os.path.join(settings.MEDIA_ROOT, video_path)
 
-#         try:
-#             # Colab 서버로 비디오 파일 및 모델 유형 전송
-#             with open(full_video_path, 'rb') as f:
-#                 files = {'file': f}
-#                 data = {'model_type': model_type}
-#                 response = requests.post(COLAB_SERVER_URL, files=files, data=data)
+        try:
+            # Colab 서버로 비디오 파일 및 모델 유형 전송
+            with open(full_video_path, 'rb') as f:
+                files = {'file': f}
+                data = {'model_type': model_type}
+                response = requests.post(COLAB_SERVER_URL, files=files, data=data)
 
-#             if response.status_code == 200:
-#                 # Colab 서버에서 받은 결과 메시지
-#                 result = response.json().get('message', '결과를 가져올 수 없습니다.')
-#             else:
-#                 result = f"Colab 서버 에러: {response.status_code}"
+            if response.status_code == 200:
+                # Colab 서버에서 받은 결과 메시지
+                result = response.json().get('message', '결과를 가져올 수 없습니다.')
+            else:
+                result = f"Colab 서버 에러: {response.status_code}"
 
-#         except requests.exceptions.RequestException as e:
-#             result = f"Colab 서버 요청 중 오류 발생: {str(e)}"
+        except requests.exceptions.RequestException as e:
+            result = f"Colab 서버 요청 중 오류 발생: {str(e)}"
 
-#         finally:
-#             # (선택사항) 처리 후 서버에 저장된 비디오 파일 삭제
-#             os.remove(full_video_path)
+        finally:
+            # (선택사항) 처리 후 서버에 저장된 비디오 파일 삭제
+            os.remove(full_video_path)
 
-#         # 결과를 템플릿으로 전달
-#         return render(request, 'model_use.html', {'result': result})
+        # 결과를 템플릿으로 전달
+        return render(request, 'model_use.html', {'result': result})
 
-#     # GET 요청일 경우 단순히 페이지를 렌더링
-#     return render(request, 'model_use.html')
+    # GET 요청일 경우 단순히 페이지를 렌더링
+    return render(request, 'model_use.html')
 
 
 #-------------------------------------------------------------------------- 준언 실험 파일 

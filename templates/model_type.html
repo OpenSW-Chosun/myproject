@@ -26,7 +26,7 @@
     <button onclick="scrollToSection('overview')">개요</button>
     <button onclick="scrollToSection('server')">Server</button>
     <button onclick="scrollToSection('faceforensics')">Xception</button>
-    <button onclick="scrollToSection('mesonet')">MesoNet</button>
+    <button onclick="scrollToSection('mesonet')">MesoNet4</button>
     <button onclick="scrollToSection('efficiencnet')">EfficiencNet</button>
 </div>
 
@@ -41,7 +41,7 @@
         팀원: 정보통신공학부(정보보안전공) 20203376 이한음</br>
         
     </p>
-    <p>GitHub: <a href="https://github.com/OpenSW-Chosun/myproject">https://github.com/OpenSW-Chosun/myproject</a></p>
+    <p>GitHub: <a href="https://github.com/OpenSW-Chosun">https://github.com/OpenSW-Chosun</a></p>
 </section>
 
 <section id="server">
@@ -128,10 +128,19 @@
 </section>
 
 <section id="mesonet">
-    <h2>MesoNet</h2>
+    <h2>MesoNet4</h2>
     <p>MesoNet은 딥페이크 탐지를 위해 설계된 심층 신경망 모델입니다.</p>
-    <br><br><br><br><br><br><br>
+    <p>
+        딥페이크 기술의 확산에 대응하기 위해, MesoNet 기반 딥페이크 탐지 시스템을 개발했습니다.
+        이 시스템은 비디오 데이터를 분석하여 가짜와 진짜를 판별하며, 매 30프레임마다 샘플링된 프레임을 Meso4 모델로 예측합니다.
+    </p>
+    <p>
+        256x256 크기로 전처리된 프레임은 딥러닝 모델에서 분석되며, 전체 샘플 중 딥페이크로 판단된 비율이 기준치를 초과하면 가짜로 분류됩니다.
+        간결한 구조와 효율적인 샘플링을 통해 빠르고 정확한 탐지가 가능합니다.
+    </p>
+    <br><br>
 </section>
+
 
 <section id="efficiencnet">
     <h2>EfficiencNet</h2>
