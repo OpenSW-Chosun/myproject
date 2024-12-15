@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block title %}
-모델 종류 - DFDC WEP
+모델 사용 - DFDC WEP
 {% endblock %}
 
 {% block extra_css %}
@@ -28,7 +28,7 @@
                 <label for="model-type" style="display: block; margin-bottom: 8px; font-weight: bold; color: #555; font-size: 18px;">모델 종류 선택</label>
                 <select id="model-type" name="model_type" required style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
                     <option value="mesonet">MesoNet</option>
-                    <option value="faceforensics">faceforensics</option>
+                    <option value="Xception">Xception</option>
                     <option value="ensemble">LSTM+GRU</option>
                 </select>
             </div>
@@ -49,6 +49,7 @@
                 <p style="font-size: 18px; color: #555;">{{ result }}</p>
             {% endif %}
         </div>
+        
     </div>
 </body>
 </html>

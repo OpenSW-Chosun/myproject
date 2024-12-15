@@ -10,3 +10,543 @@ Performing system checks...
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
 System check identified no issues (0 silenced).
 Error: That port is already in use.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 10:18:32.372067: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:18:32.372121: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 10:18:33.981607: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:18:33.981670: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 10:18:33.981718: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 10:18:33.982079: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 10:18:34
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 10:18:51.182169: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:18:51.182334: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 10:18:52.838141: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:18:52.838217: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 10:18:52.838249: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 10:18:52.838588: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+Error: That port is already in use.
+[15/Dec/2024 10:18:57] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 10:19:06] "POST /process_video/ HTTP/1.0" 200 3651
+[15/Dec/2024 10:19:27] "POST /process_video/ HTTP/1.0" 200 3718
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 10:20:04.343970: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:20:04.344022: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 10:20:05.955465: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:20:05.955769: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 10:20:05.955919: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 10:20:05.956270: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 10:20:06
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 10:22:24.593245: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:22:24.593297: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 10:22:26.843820: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:22:26.844192: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 10:22:26.844263: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 10:22:26.844639: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 10:22:27
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 10:22:31.600741: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:22:31.600795: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 10:22:33.207854: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:22:33.208042: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 10:22:33.208123: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 10:22:33.208500: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 10:22:33
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 10:25:51.195905: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:25:51.196169: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 10:25:52.823071: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 10:25:52.823459: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 10:25:52.823644: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 10:25:52.824282: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 10:25:53
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 10:26:00] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 10:26:02] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 10:26:13] "POST /process_video/ HTTP/1.0" 200 3638
+[15/Dec/2024 11:01:22] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:01:48] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:01:51] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:01:53] "GET /model_use/ HTTP/1.0" 200 3428
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:02:59.381462: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:02:59.381522: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:03:01.033901: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:03:01.034256: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:03:01.034321: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:03:01.034661: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:03:01
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 11:03:02] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:03:03] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:03:03] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:03:03] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 11:03:05] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:03:06] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:03:06] "GET /model_use/ HTTP/1.0" 200 3428
+[15/Dec/2024 11:04:01] "GET /model_use/ HTTP/1.0" 200 3418
+[15/Dec/2024 11:04:16] "POST /process_video/ HTTP/1.0" 200 3641
+[15/Dec/2024 11:05:33] "GET /model_types/ HTTP/1.0" 200 5637
+[15/Dec/2024 11:06:01] "GET /model_types/ HTTP/1.0" 200 5251
+[15/Dec/2024 11:06:14] "GET /model_types/ HTTP/1.0" 200 5263
+[15/Dec/2024 11:07:07] "GET /model_types/ HTTP/1.0" 200 5408
+[15/Dec/2024 11:07:33] "GET /model_comparison/ HTTP/1.0" 200 773
+[15/Dec/2024 11:07:34] "GET /model_types/ HTTP/1.0" 200 5408
+Not Found: /onvif/device_service
+[15/Dec/2024 11:14:41] "POST /onvif/device_service HTTP/1.0" 404 2928
+[15/Dec/2024 11:14:59] "GET /model_comparison/ HTTP/1.0" 200 773
+[15/Dec/2024 11:25:43] "GET /process_video/ HTTP/1.0" 200 3418
+[15/Dec/2024 11:41:44] "GET / HTTP/1.0" 200 2347
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:45:13.558931: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:45:13.558981: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:45:15.252404: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:45:15.252580: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:45:15.252673: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:45:15.253083: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.8/dist-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.8/dist-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/myproject/myproject/urls.py", line 21, in <module>
+    from .views import process_video
+  File "/myproject/myproject/views.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:46:54.974588: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:46:54.974641: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:46:56.599951: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:46:56.600020: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:46:56.600055: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:46:56.600397: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:46:57
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 11:46:58] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 11:46:59] "GET /model_use/ HTTP/1.0" 200 3432
+[15/Dec/2024 11:47:08] "POST /process_video/ HTTP/1.0" 200 3752
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:52:18.067359: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:52:18.067418: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:52:19.696550: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:52:19.696617: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:52:19.696653: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:52:19.697018: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:52:20
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:52:34.237960: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:52:34.238096: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:52:35.909148: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:52:35.909228: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:52:35.909269: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:52:35.909686: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:52:36
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:52:38.074962: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:52:38.075143: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:52:39.940747: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:52:39.940810: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:52:39.940845: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:52:39.941220: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+Error: That port is already in use.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:53:06.770363: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:53:06.770533: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:53:08.701842: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:53:08.701944: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:53:08.701995: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:53:08.702390: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:53:09.676576: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:53:09.677011: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:53:09
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+2024-12-15 11:53:11.697915: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:53:11.698026: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:53:11.698070: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:53:11.698428: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+Error: That port is already in use.
+[15/Dec/2024 11:53:20] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 11:53:21] "GET /model_use/ HTTP/1.0" 200 3432
+[15/Dec/2024 11:53:29] "POST /process_video/ HTTP/1.0" 200 3702
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:54:12.589572: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:54:12.589627: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:54:14.238541: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:54:14.238607: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:54:14.238642: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:54:14.239045: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:54:14
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 11:54:17] "GET /model_use/ HTTP/1.0" 200 3432
+[15/Dec/2024 11:54:26] "POST /process_video/ HTTP/1.0" 200 3663
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:55:06.678303: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:55:06.678472: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:55:08.950247: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:55:08.950457: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:55:08.950556: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:55:08.951018: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:55:09
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:55:14.736931: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:55:14.736987: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:55:16.344674: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:55:16.344743: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:55:16.344777: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:55:16.345126: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:55:17
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 11:55:59] "GET /model_use/ HTTP/1.0" 200 3418
+[15/Dec/2024 11:55:59] "GET /model_use/ HTTP/1.0" 200 3418
+[15/Dec/2024 11:56:09] "POST /process_video/ HTTP/1.0" 200 3738
+[15/Dec/2024 11:56:12] "GET / HTTP/1.0" 200 2347
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:56:40.085078: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:56:40.085137: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:56:41.714678: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:56:41.714754: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:56:41.714835: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:56:41.715176: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:56:42
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:57:08.154442: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:57:08.154500: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:57:09.737224: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:57:09.737283: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:57:09.737316: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:57:09.737666: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:57:10
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 11:57:10] "GET /model_use/ HTTP/1.0" 200 3418
+[15/Dec/2024 11:57:20] "POST /process_video/ HTTP/1.0" 200 3688
+[15/Dec/2024 11:57:56] "GET / HTTP/1.0" 200 2347
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 11:58:03.033252: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:58:03.033317: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 11:58:04.706668: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 11:58:04.706743: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 11:58:04.706819: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 11:58:04.707248: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 11:58:05
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 11:58:06] "GET /model_use/ HTTP/1.0" 200 3418
+[15/Dec/2024 11:58:08] "GET /model_use/ HTTP/1.0" 200 3418
+[15/Dec/2024 11:58:08] "GET /model_use/ HTTP/1.0" 200 3418
+[15/Dec/2024 11:58:16] "POST /process_video/ HTTP/1.0" 200 3688
+[15/Dec/2024 11:58:57] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 11:59:05] "POST /process_video/ HTTP/1.0" 200 3697
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 12:00:21.493138: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:00:21.493198: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 12:00:23.139130: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:00:23.139185: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 12:00:23.139220: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 12:00:23.139551: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 12:00:23
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 12:00:24] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 12:00:32] "POST /process_video/ HTTP/1.0" 200 3639
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 12:01:35.974240: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:01:35.974296: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 12:01:37.576114: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:01:37.576173: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 12:01:37.576207: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 12:01:37.576554: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 12:01:38
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 12:01:38] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 12:01:46] "POST /process_video/ HTTP/1.0" 200 3639
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 12:02:46.245562: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:02:46.245620: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 12:02:48.079014: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:02:48.079084: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 12:02:48.079124: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 12:02:48.079488: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 12:02:48
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 12:02:51.819825: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:02:51.819882: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 12:02:53.422632: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:02:53.422847: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 12:02:53.422953: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 12:02:53.423316: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 12:02:54
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 12:02:56] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 12:03:05] "POST /process_video/ HTTP/1.0" 200 3697
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 12:03:49.806868: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:03:49.806921: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 12:03:51.467212: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:03:51.467265: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 12:03:51.467298: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 12:03:51.467617: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 12:03:52
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 12:04:03] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 12:04:04] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 12:04:05] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 12:04:14] "POST /process_video/ HTTP/1.0" 200 3658
+[15/Dec/2024 12:04:21] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 12:04:30] "POST /process_video/ HTTP/1.0" 200 3658
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 12:05:33.085842: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:05:33.085898: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 12:05:34.703946: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:05:34.704027: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 12:05:34.704064: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 12:05:34.704428: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 12:05:35
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[15/Dec/2024 12:05:35] "GET /model_use/ HTTP/1.0" 200 3427
+frame_predictions (before filtering): 딥페이크 확률: 1.00, 샘플링된 프레임 수: 10
+[15/Dec/2024 12:05:44] "POST /process_video/ HTTP/1.0" 200 3667
+/myproject/myproject/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+2024-12-15 12:06:06.478335: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:06:06.478501: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-15 12:06:08.146594: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/hbag9471/.local/lib/python3.8/site-packages/cv2/../../lib64:
+2024-12-15 12:06:08.146789: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2024-12-15 12:06:08.146883: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (opensw): /proc/driver/nvidia/version does not exist
+2024-12-15 12:06:08.147279: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+System check identified no issues (0 silenced).
+December 15, 2024 - 12:06:08
+Django version 4.2.16, using settings 'myproject.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
