@@ -8,13 +8,93 @@
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% block extra_css %}{% endblock %}
 </head>
+<style>
+    /* Base CSS */
+
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* 기본 배경색 */
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95); /* 약간의 투명 효과 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 50px; /* 높이 설정 */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px; /* 양쪽 여백 */
+    overflow: hidden; /* 화면 크기 초과 시 숨김 */
+}
+
+/* Nav item styling */
+.nav-item {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px; /* 클릭 영역 확보 */
+    transition: color 0.3s, background-color 0.3s;
+    white-space: nowrap; /* 텍스트 줄바꿈 방지 */
+}
+
+.nav-item:hover {
+    color: white;
+    background-color: #d2d2d2; /* 강조된 색상 */
+    border-radius: 5px; /* 부드러운 모서리 */
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-between; /* 항목 간 간격 균등 */
+        padding: 0 5px; /* 좁은 화면에서는 여백 줄이기 */
+    }
+
+    .nav-item {
+        font-size: 12px; /* 작은 화면에 맞게 폰트 크기 조정 */
+        padding: 5px 10px; /* 패딩 축소 */
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        justify-content: space-around;
+        padding: 0 5px;
+    }
+
+    .nav-item {
+        font-size: 10px;
+        padding: 3px 8px;
+    }
+
+    main {
+        margin-top: 60px; /* 모바일에서도 여백 유지 */
+    }
+}
+
+</style>
 <body>
     <!-- Include Navbar -->
     <nav class="navbar">
         <a href="/" class="nav-item">홈</a>
         <a href="/faceforensics/" class="nav-item">Xception</a>
         <a href="/model_types/" class="nav-item">모델 종류</a>
-        <a href="/model_comparison/" class="nav-item">모델 비교</a>
         <a href="/model_use/" class="nav-item">모델 사용</a>
     </nav>
 

@@ -930,3 +930,484 @@ Not Found: /geoserver/web/
 [15/Dec/2024 15:23:12] "GET /geoserver/web/ HTTP/1.0" 404 2909
 [15/Dec/2024 15:36:29] "GET / HTTP/1.0" 200 2347
 [15/Dec/2024 15:36:30] "GET /model_types/ HTTP/1.0" 200 5408
+[15/Dec/2024 15:38:07] "GET /model_types/ HTTP/1.0" 200 5422
+[15/Dec/2024 15:38:16] "GET /model_comparison/ HTTP/1.0" 200 773
+[15/Dec/2024 15:38:17] "GET /model_types/ HTTP/1.0" 200 5422
+[15/Dec/2024 15:38:19] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 15:58:43] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 16:03:51] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 16:05:18] "GET / HTTP/1.0" 200 2347
+Not Found: /login.rsp
+[15/Dec/2024 16:07:49] "GET /login.rsp HTTP/1.0" 404 2894
+[15/Dec/2024 16:14:30] "GET / HTTP/1.0" 200 2347
+Not Found: /cdn-cgi/trace
+[15/Dec/2024 16:31:32] "GET /cdn-cgi/trace HTTP/1.0" 404 2913
+Not Found: /.git/config
+[15/Dec/2024 16:33:06] "GET /.git/config HTTP/1.0" 404 2900
+[15/Dec/2024 16:53:57] "GET / HTTP/1.0" 200 2347
+Not Found: /.env
+[15/Dec/2024 17:00:26] "GET /.env HTTP/1.0" 404 2879
+[15/Dec/2024 17:03:06] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 17:03:07] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 17:04:52] "GET / HTTP/1.0" 200 2347
+[15/Dec/2024 17:05:24] "GET / HTTP/1.0" 200 2622
+[15/Dec/2024 17:05:25] "GET / HTTP/1.0" 200 2622
+[15/Dec/2024 17:05:34] "GET / HTTP/1.0" 200 2622
+[15/Dec/2024 17:05:36] "GET / HTTP/1.0" 200 2622
+[15/Dec/2024 17:05:36] "GET / HTTP/1.0" 200 2622
+[15/Dec/2024 17:05:41] "GET /model_comparison/ HTTP/1.0" 200 773
+[15/Dec/2024 17:05:53] "GET /model_comparison/ HTTP/1.0" 200 773
+[15/Dec/2024 17:05:57] "GET /model_types/ HTTP/1.0" 200 5422
+[15/Dec/2024 17:06:15] "GET /model_types/ HTTP/1.0" 200 5422
+[15/Dec/2024 17:11:59] "GET /model_types/ HTTP/1.0" 200 5678
+[15/Dec/2024 17:13:32] "GET / HTTP/1.0" 200 2622
+[15/Dec/2024 17:13:36] "GET /model_types/ HTTP/1.0" 200 6214
+[15/Dec/2024 17:14:01] "GET /model_types/ HTTP/1.0" 200 6218
+[15/Dec/2024 17:15:04] "GET / HTTP/1.0" 200 2622
+[15/Dec/2024 17:16:01] "GET /model_comparison/ HTTP/1.0" 200 773
+[15/Dec/2024 17:16:06] "GET /model_comparison/ HTTP/1.0" 200 773
+[15/Dec/2024 17:16:08] "GET /model_comparison/ HTTP/1.0" 200 773
+[15/Dec/2024 17:19:15] "GET / HTTP/1.0" 200 2961
+Not Found: /img/back.jpg
+[15/Dec/2024 17:19:16] "GET /img/back.jpg HTTP/1.0" 404 2903
+[15/Dec/2024 17:20:10] "GET / HTTP/1.0" 200 2977
+Not Found: /myproject/templates/back.jpg
+[15/Dec/2024 17:20:11] "GET /myproject/templates/back.jpg HTTP/1.0" 404 2951
+[15/Dec/2024 17:20:12] "GET / HTTP/1.0" 200 2977
+Not Found: /myproject/templates/back.jpg
+[15/Dec/2024 17:20:13] "GET /myproject/templates/back.jpg HTTP/1.0" 404 2951
+[15/Dec/2024 17:20:13] "GET / HTTP/1.0" 200 2977
+Not Found: /myproject/templates/back.jpg
+[15/Dec/2024 17:20:13] "GET /myproject/templates/back.jpg HTTP/1.0" 404 2951
+[15/Dec/2024 17:20:35] "GET / HTTP/1.0" 200 2956
+Not Found: /back.jpg
+[15/Dec/2024 17:20:35] "GET /back.jpg HTTP/1.0" 404 2891
+[15/Dec/2024 17:20:36] "GET / HTTP/1.0" 200 2956
+Not Found: /back.jpg
+[15/Dec/2024 17:20:36] "GET /back.jpg HTTP/1.0" 404 2891
+[15/Dec/2024 17:20:36] "GET / HTTP/1.0" 200 2956
+Not Found: /back.jpg
+[15/Dec/2024 17:20:36] "GET /back.jpg HTTP/1.0" 404 2891
+[15/Dec/2024 17:20:53] "GET / HTTP/1.0" 200 2967
+Not Found: /templates/back.jpg
+[15/Dec/2024 17:20:53] "GET /templates/back.jpg HTTP/1.0" 404 2921
+[15/Dec/2024 17:20:58] "GET / HTTP/1.0" 200 2967
+Not Found: /templates/back.jpg
+[15/Dec/2024 17:20:58] "GET /templates/back.jpg HTTP/1.0" 404 2921
+[15/Dec/2024 17:21:00] "GET / HTTP/1.0" 200 2967
+Not Found: /templates/back.jpg
+[15/Dec/2024 17:21:00] "GET /templates/back.jpg HTTP/1.0" 404 2921
+[15/Dec/2024 17:21:09] "GET / HTTP/1.0" 200 2941
+Not Found: /templates/back.jpg
+[15/Dec/2024 17:21:09] "GET /templates/back.jpg HTTP/1.0" 404 2921
+[15/Dec/2024 17:21:09] "GET / HTTP/1.0" 200 2941
+Not Found: /templates/back.jpg
+[15/Dec/2024 17:21:10] "GET /templates/back.jpg HTTP/1.0" 404 2921
+[15/Dec/2024 17:21:10] "GET / HTTP/1.0" 200 2941
+Not Found: /templates/back.jpg
+[15/Dec/2024 17:21:10] "GET /templates/back.jpg HTTP/1.0" 404 2921
+[15/Dec/2024 17:21:58] "GET / HTTP/1.0" 200 2956
+Not Found: /back.jpg
+[15/Dec/2024 17:21:58] "GET /back.jpg HTTP/1.0" 404 2891
+[15/Dec/2024 17:22:37] "GET / HTTP/1.0" 200 2918
+Not Found: /back.jpg
+[15/Dec/2024 17:22:37] "GET /back.jpg HTTP/1.0" 404 2891
+[15/Dec/2024 17:22:38] "GET / HTTP/1.0" 200 2918
+Not Found: /back.jpg
+[15/Dec/2024 17:22:38] "GET /back.jpg HTTP/1.0" 404 2891
+[15/Dec/2024 17:22:39] "GET / HTTP/1.0" 200 2918
+Not Found: /back.jpg
+[15/Dec/2024 17:22:39] "GET /back.jpg HTTP/1.0" 404 2891
+[15/Dec/2024 17:22:54] "GET / HTTP/1.0" 200 2622
+[15/Dec/2024 17:28:48] "GET / HTTP/1.0" 200 4711
+Not Found: /img/back.jpg
+[15/Dec/2024 17:28:48] "GET /img/back.jpg HTTP/1.0" 404 2903
+[15/Dec/2024 17:29:31] "GET / HTTP/1.0" 200 4711
+Not Found: /img/back.jpg
+[15/Dec/2024 17:29:31] "GET /img/back.jpg HTTP/1.0" 404 2903
+[15/Dec/2024 17:29:52] "GET / HTTP/1.0" 200 4763
+Not Found: /img/back.jpg
+[15/Dec/2024 17:29:52] "GET /img/back.jpg HTTP/1.0" 404 2903
+[15/Dec/2024 17:30:40] "GET / HTTP/1.0" 200 4719
+Not Found: /templates/back.jpg
+[15/Dec/2024 17:30:40] "GET /templates/back.jpg HTTP/1.0" 404 2921
+[15/Dec/2024 17:30:41] "GET / HTTP/1.0" 200 4719
+Not Found: /templates/back.jpg
+[15/Dec/2024 17:30:41] "GET /templates/back.jpg HTTP/1.0" 404 2921
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/myproject/myproject/views.py", line 19, in index
+    return render(request, 'index.html')
+  File "/usr/local/lib/python3.8/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'static'. Did you forget to register or load this tag?
+[15/Dec/2024 17:32:40] "GET / HTTP/1.0" 500 136901
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/myproject/myproject/views.py", line 19, in index
+    return render(request, 'index.html')
+  File "/usr/local/lib/python3.8/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'static'. Did you forget to register or load this tag?
+[15/Dec/2024 17:32:42] "GET / HTTP/1.0" 500 136901
+[15/Dec/2024 17:34:00] "GET / HTTP/1.0" 200 4720
+[15/Dec/2024 17:34:02] "GET / HTTP/1.0" 200 4720
+[15/Dec/2024 17:34:10] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 17:34:13] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 17:34:16] "GET /model_types/ HTTP/1.0" 200 6218
+[15/Dec/2024 17:34:18] "GET /model_use/ HTTP/1.0" 200 3427
+[15/Dec/2024 17:34:33] "GET /model_types/ HTTP/1.0" 200 6218
+[15/Dec/2024 17:35:53] "GET / HTTP/1.0" 200 4720
+[15/Dec/2024 17:38:53] "GET / HTTP/1.0" 200 4720
+[15/Dec/2024 17:38:55] "GET /model_types/ HTTP/1.0" 200 3385
+[15/Dec/2024 17:40:46] "GET /model_types/ HTTP/1.0" 200 8347
+[15/Dec/2024 17:41:07] "GET /model_types/ HTTP/1.0" 200 6218
+[15/Dec/2024 17:43:23] "GET /model_types/ HTTP/1.0" 200 8730
+[15/Dec/2024 17:43:52] "GET /model_types/ HTTP/1.0" 200 6218
+[15/Dec/2024 17:46:35] "GET /model_types/ HTTP/1.0" 200 8674
+[15/Dec/2024 17:47:00] "GET /model_types/ HTTP/1.0" 200 6218
+[15/Dec/2024 17:49:08] "GET /model_types/ HTTP/1.0" 200 8907
+[15/Dec/2024 17:50:16] "GET /model_types/ HTTP/1.0" 200 8421
+[15/Dec/2024 17:51:58] "GET /model_types/ HTTP/1.0" 200 8642
+[15/Dec/2024 17:52:28] "GET /model_types/ HTTP/1.0" 200 8641
+[15/Dec/2024 17:52:38] "GET /model_types/ HTTP/1.0" 200 8642
+[15/Dec/2024 17:52:46] "GET /model_types/ HTTP/1.0" 200 8641
+[15/Dec/2024 17:52:58] "GET /model_types/ HTTP/1.0" 200 8647
+[15/Dec/2024 17:53:05] "GET /model_types/ HTTP/1.0" 200 8647
+[15/Dec/2024 17:53:11] "GET /model_types/ HTTP/1.0" 200 8647
+[15/Dec/2024 17:54:23] "GET /model_types/ HTTP/1.0" 200 8647
+[15/Dec/2024 17:54:24] "GET /model_types/ HTTP/1.0" 200 8647
+[15/Dec/2024 17:54:24] "GET /model_types/ HTTP/1.0" 200 8647
+[15/Dec/2024 17:54:35] "GET /model_types/ HTTP/1.0" 200 8647
+[15/Dec/2024 17:54:55] "GET /model_types/ HTTP/1.0" 200 8646
+[15/Dec/2024 17:54:55] "GET /model_types/ HTTP/1.0" 200 8646
+[15/Dec/2024 17:55:05] "GET /model_types/ HTTP/1.0" 200 8646
+[15/Dec/2024 17:55:05] "GET /model_types/ HTTP/1.0" 200 8646
+[15/Dec/2024 17:55:06] "GET /model_types/ HTTP/1.0" 200 8646
+[15/Dec/2024 17:56:12] "GET /model_types/ HTTP/1.0" 200 8646
+[15/Dec/2024 17:56:46] "GET /model_types/ HTTP/1.0" 200 8645
+[15/Dec/2024 17:57:27] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:06] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:07] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:08] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:08] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:09] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:09] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:09] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:10] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:10] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:36] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:37] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:37] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:37] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:48] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:48] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:48] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 17:59:49] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:00:00] "GET / HTTP/1.0" 200 4720
+[15/Dec/2024 18:00:03] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:01:43] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:01:44] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:01:44] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:01:44] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:01:45] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:01:45] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:01:45] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:02:28] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:02:37] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:02:45] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:02:55] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:02:56] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:02:56] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:02:56] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:03:05] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:03:05] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:03:26] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:03:26] "GET /model_types/ HTTP/1.0" 200 8639
+[15/Dec/2024 18:04:09] "GET /model_types/ HTTP/1.0" 200 8648
+[15/Dec/2024 18:05:00] "GET /model_types/ HTTP/1.0" 200 8648
+[15/Dec/2024 18:05:01] "GET /model_types/ HTTP/1.0" 200 8648
+[15/Dec/2024 18:05:17] "GET /model_types/ HTTP/1.0" 200 8648
+[15/Dec/2024 18:05:35] "GET /model_types/ HTTP/1.0" 200 8648
+[15/Dec/2024 18:05:52] "GET /model_types/ HTTP/1.0" 200 8654
+[15/Dec/2024 18:06:55] "GET /model_types/ HTTP/1.0" 200 8656
+[15/Dec/2024 18:07:06] "GET /model_types/ HTTP/1.0" 200 8684
+[15/Dec/2024 18:07:22] "GET /model_types/ HTTP/1.0" 200 8684
+[15/Dec/2024 18:07:36] "GET /model_types/ HTTP/1.0" 200 8684
+[15/Dec/2024 18:07:51] "GET /model_types/ HTTP/1.0" 200 8712
+[15/Dec/2024 18:08:14] "GET /model_types/ HTTP/1.0" 200 8721
+[15/Dec/2024 18:08:51] "GET /model_types/ HTTP/1.0" 200 8751
+[15/Dec/2024 18:10:04] "GET /model_types/ HTTP/1.0" 200 8795
+[15/Dec/2024 18:10:19] "GET /model_types/ HTTP/1.0" 200 8796
+[15/Dec/2024 18:12:04] "GET /model_types/ HTTP/1.0" 200 8916
+[15/Dec/2024 18:12:31] "GET /model_types/ HTTP/1.0" 200 8944
+[15/Dec/2024 18:12:51] "GET /model_types/ HTTP/1.0" 200 8953
+[15/Dec/2024 18:15:16] "GET /model_types/ HTTP/1.0" 200 9049
+[15/Dec/2024 18:15:41] "GET /model_types/ HTTP/1.0" 200 9087
+[15/Dec/2024 18:15:42] "GET /model_types/ HTTP/1.0" 200 9087
+[15/Dec/2024 18:16:06] "GET /model_types/ HTTP/1.0" 200 9084
+[15/Dec/2024 18:16:53] "GET /model_types/ HTTP/1.0" 200 9088
+[15/Dec/2024 18:18:45] "GET /model_types/ HTTP/1.0" 200 9087
+[15/Dec/2024 18:18:46] "GET /model_types/ HTTP/1.0" 200 9087
+[15/Dec/2024 18:24:04] "GET /model_types/ HTTP/1.0" 200 9057
+[15/Dec/2024 18:25:11] "GET /model_types/ HTTP/1.0" 200 8953
+[15/Dec/2024 18:27:13] "GET /model_types/ HTTP/1.0" 200 8984
+[15/Dec/2024 18:27:14] "GET /model_types/ HTTP/1.0" 200 8984
+[15/Dec/2024 18:29:19] "GET /model_types/ HTTP/1.0" 200 6782
+[15/Dec/2024 18:31:04] "GET /model_types/ HTTP/1.0" 200 8982
+[15/Dec/2024 18:31:43] "GET /model_types/ HTTP/1.0" 200 8910
+Not Found: /.env
+[15/Dec/2024 18:31:55] "GET /.env HTTP/1.0" 404 2879
+[15/Dec/2024 18:32:23] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:32:24] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:32:29] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:32:30] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:33:10] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:33:10] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:33:11] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:33:26] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:33:26] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:33:27] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:04] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:05] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:06] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:06] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:09] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:09] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:09] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:21] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:22] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:22] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:36] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:36] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:37] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:38] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:39] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:39] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:34:52] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:18] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:18] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:18] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:19] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:19] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:30] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:30] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:30] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:31] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:35:39] "GET / HTTP/1.0" 200 4720
+[15/Dec/2024 18:35:42] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:37:16] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:37:17] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:37:17] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:37:18] "GET /model_types/ HTTP/1.0" 200 8910
+[15/Dec/2024 18:40:28] "GET /model_types/ HTTP/1.0" 200 11066
+[15/Dec/2024 18:40:54] "GET /model_types/ HTTP/1.0" 200 10708
+[15/Dec/2024 18:41:38] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:41:58] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:42:20] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:42:55] "GET /faceforensics/ HTTP/1.0" 200 4638
+[15/Dec/2024 18:42:59] "GET /model_comparison/ HTTP/1.0" 200 2472
+[15/Dec/2024 18:44:07] "GET / HTTP/1.0" 200 4708
+[15/Dec/2024 18:44:30] "GET / HTTP/1.0" 200 4720
+[15/Dec/2024 18:44:44] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:44:56] "GET / HTTP/1.0" 200 4679
+[15/Dec/2024 18:45:26] "GET /model_use/ HTTP/1.0" 200 5126
+[15/Dec/2024 18:46:56] "GET /model_use/ HTTP/1.0" 200 6533
+[15/Dec/2024 18:48:53] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:49:16] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:49:18] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:49:21] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:49:31] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:49:37] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:50:09] "GET /model_use/ HTTP/1.0" 200 7114
+[15/Dec/2024 18:50:14] "GET /model_use/ HTTP/1.0" 200 7114
+[15/Dec/2024 18:50:21] "GET /model_use/ HTTP/1.0" 200 7114
+[15/Dec/2024 18:50:45] "GET /model_use/ HTTP/1.0" 200 7117
+[15/Dec/2024 18:51:02] "GET /model_use/ HTTP/1.0" 200 7123
+[15/Dec/2024 18:51:03] "GET /model_use/ HTTP/1.0" 200 7123
+[15/Dec/2024 18:51:04] "GET /model_use/ HTTP/1.0" 200 7123
+[15/Dec/2024 18:51:04] "GET /model_use/ HTTP/1.0" 200 7123
+[15/Dec/2024 18:51:10] "GET /model_use/ HTTP/1.0" 200 7114
+[15/Dec/2024 18:51:19] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:51:28] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:51:41] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:51:50] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:51:53] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:51:54] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:52:18] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:52:19] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:52:21] "GET /faceforensics/ HTTP/1.0" 200 4638
+[15/Dec/2024 18:52:23] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:52:24] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:52:26] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:52:27] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:52:29] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:52:33] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:52:37] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:52:40] "GET /model_use/ HTTP/1.0" 200 7120
+[15/Dec/2024 18:54:19] "GET /model_use/ HTTP/1.0" 200 7539
+[15/Dec/2024 18:54:22] "GET /model_use/ HTTP/1.0" 200 7539
+[15/Dec/2024 18:54:26] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:54:28] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:54:37] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:54:40] "GET /faceforensics/ HTTP/1.0" 200 4638
+[15/Dec/2024 18:54:42] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:54:45] "GET /model_use/ HTTP/1.0" 200 7539
+[15/Dec/2024 18:54:48] "GET /faceforensics/ HTTP/1.0" 200 4638
+[15/Dec/2024 18:54:50] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:55:00] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:56:37] "GET /faceforensics/ HTTP/1.0" 200 4638
+[15/Dec/2024 18:56:42] "GET /faceforensics/ HTTP/1.0" 200 5803
+[15/Dec/2024 18:56:59] "GET /faceforensics/ HTTP/1.0" 200 5803
+[15/Dec/2024 18:57:51] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:57:53] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:57:55] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:57:56] "GET /model_use/ HTTP/1.0" 200 7539
+[15/Dec/2024 18:57:58] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:57:59] "GET /faceforensics/ HTTP/1.0" 200 5803
+[15/Dec/2024 18:58:01] "GET /model_use/ HTTP/1.0" 200 7539
+[15/Dec/2024 18:58:03] "GET /faceforensics/ HTTP/1.0" 200 5803
+[15/Dec/2024 18:58:08] "GET /faceforensics/ HTTP/1.0" 200 5803
+[15/Dec/2024 18:58:58] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 18:59:01] "GET /faceforensics/ HTTP/1.0" 200 5803
+[15/Dec/2024 18:59:03] "GET /model_types/ HTTP/1.0" 200 10681
+[15/Dec/2024 18:59:27] "GET /faceforensics/ HTTP/1.0" 200 6756
+[15/Dec/2024 18:59:28] "GET /faceforensics/ HTTP/1.0" 200 6756
+[15/Dec/2024 18:59:31] "GET /faceforensics/ HTTP/1.0" 200 6756
+[15/Dec/2024 18:59:43] "GET /faceforensics/ HTTP/1.0" 200 6756
+[15/Dec/2024 18:59:51] "GET /faceforensics/ HTTP/1.0" 200 6756
+[15/Dec/2024 19:00:32] "GET /model_types/ HTTP/1.0" 200 10681
+Internal Server Error: /model_types/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.8/dist-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/myproject/myproject/views.py", line 27, in model_types
+    return render(request, 'model_type.html')
+  File "/usr/local/lib/python3.8/dist-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.8/dist-packages/django/template/base.py", line 568, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'static'. Did you forget to register or load this tag?
+[15/Dec/2024 19:02:38] "GET /model_types/ HTTP/1.0" 500 137312
+[15/Dec/2024 19:03:40] "GET /model_types/ HTTP/1.0" 200 10973
+[15/Dec/2024 19:04:16] "GET /model_types/ HTTP/1.0" 200 10973
+[15/Dec/2024 19:04:41] "GET /model_types/ HTTP/1.0" 200 10973
+[15/Dec/2024 19:04:56] "GET /model_types/ HTTP/1.0" 200 10973
+[15/Dec/2024 19:05:06] "GET /model_types/ HTTP/1.0" 200 10973
+[15/Dec/2024 19:07:00] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 19:07:09] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 19:07:09] "OPTIONS / HTTP/1.0" 200 4662
+Not Found: /robots.txt
+[15/Dec/2024 19:07:09] "OPTIONS / HTTP/1.0" 200 4662
+[15/Dec/2024 19:07:34] "OPTIONS / HTTP/1.0" 200 4662
+[15/Dec/2024 19:07:42] "OPTIONS / HTTP/1.0" 200 4662
+[15/Dec/2024 19:08:15] "OPTIONS / HTTP/1.0" 200 4662
+[15/Dec/2024 19:08:23] "OPTIONS / HTTP/1.0" 200 4662
+[15/Dec/2024 19:08:26] "GET /model_types/ HTTP/1.0" 200 8440
+[15/Dec/2024 19:08:27] "GET /model_types/ HTTP/1.0" 200 8440
+[15/Dec/2024 19:08:28] "GET /model_types/ HTTP/1.0" 200 8440
+[15/Dec/2024 19:11:06] "GET /model_types/ HTTP/1.0" 200 9027
+[15/Dec/2024 19:12:18] "GET /model_types/ HTTP/1.0" 200 9027
+[15/Dec/2024 19:12:19] "GET /model_types/ HTTP/1.0" 200 9027
+[15/Dec/2024 19:12:20] "GET /model_use/ HTTP/1.0" 200 7539
+[15/Dec/2024 19:12:21] "GET /faceforensics/ HTTP/1.0" 200 6756
+[15/Dec/2024 19:12:22] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 19:12:24] "GET /model_types/ HTTP/1.0" 200 9027
+[15/Dec/2024 19:12:25] "GET / HTTP/1.0" 200 4662
+[15/Dec/2024 19:12:26] "GET /model_use/ HTTP/1.0" 200 7539
+[15/Dec/2024 19:12:27] "GET /model_types/ HTTP/1.0" 200 9027
