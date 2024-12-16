@@ -36,7 +36,7 @@
     
     <section id="overview">
         <h2>개요</h2>
-        <h3 style="text-align: center;">조선대학교 오픈소스SW프로젝트입니다.</h3>
+        <h3 class="text-white" style="text-align: center;">조선대학교 오픈소스SW프로젝트입니다.</h3>
         <br>
         <h2 style="text-align: center;">1조</h2>
         <p>
@@ -45,11 +45,12 @@
             팀원: 정보통신공학부(정보보안전공) 20203376 이한음<br>
         </p>
         <h3 style="text-align: center;">
-            GitHub: 
+            <span style="color: yellow;">GitHub:</span> 
             <a href="https://github.com/OpenSW-Chosun" style="color: white; text-decoration: none;" target="_blank">
                 https://github.com/OpenSW-Chosun
             </a>
         </h3>
+        
     </section>
     
     <section id="server">
@@ -58,7 +59,7 @@
         <p>nginx version: 1.18.0 (Ubuntu)</p>
         <p>django version: 4.2.16</p>
         <br>
-        <h1 style="text-align: center;">구상도</h1>
+        <h1 class="text-white" style="text-align: center;">구상도</h1>
         {% load static %}
         <img src="{% static 'img/origin_server.png' %}" alt="origin_server.png" style="max-width: 100%; height: auto;" class="center-image">
     </section>
@@ -75,6 +76,8 @@
         <p>MesoNet은 딥페이크 탐지를 위해 설계된 심층 신경망 모델입니다.</p>
         <p>딥페이크 기술의 확산에 대응하기 위해, MesoNet 기반 딥페이크 탐지 시스템을 개발했습니다.</p>
         <p>이 조합은 공간적 정보와 시간적 정보를 모두 활용해 신뢰도와 효율성을 동시에 확보한 모델입니다.</p>
+
+        <p>현 사이트에서는<br>ReLu 활성화 함수 -> Swish<br> 0.5 0.5 DropOut 비율 -> 0.3 0.5<br>로 변경되었습니다.</p>
     </section>
 
     <section id="LSTMGRU">

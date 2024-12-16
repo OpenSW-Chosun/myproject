@@ -30,6 +30,9 @@ body::before {
     pointer-events: none;
 }
 
+.text-white {
+    color: white !important; /* 우선순위 강제 적용 */
+}
 
 .side-menu {
     position: fixed;
